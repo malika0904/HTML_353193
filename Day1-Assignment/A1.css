@@ -1,30 +1,34 @@
 
-body{
+body
+{
 	background-color: PeachPuff;
 }
-header{
+header
+{
 	height: 15%;
-	width:100%;
+	width: 100%;
 	background-color: Wheat;
-
 	position: fixed;
 }
 /* This is heading of page*/
-header h1{
+header h1
+{
 	color: SaddleBrown;
 	text-align: center;
 	font-size: 35px;
 	text-shadow: 5px 10px 10px AliceBlue;
 }
-/* style change of anchor tags on the top */
+/* style change of anchor tags on the top*/
 a{
 	text-decoration: none;
 	color: black;
 }
-a:hover{
+a:hover
+{
 	color: red;
 }
-header nav{
+header nav
+{
 	text-align: right;
 }
 /* to put all the anchor tags in 1 line */
@@ -35,63 +39,78 @@ header nav li{
 
 }
 /* this is the section of large image i.e. hero unit */
-.sec2 img{
+.sec2 img
+{
 	width: 100%;
 	height: 550px;
 }
-.sec-left{
+.sec-left
+{
 	padding-top: 30px;
 }
-.sec-right{
+.sec-right
+{
 	padding-top: 30px;
 }
-.sec-right dd{
+.sec-right dd
+{
 	margin-bottom: 25px;
 }
 /*this portion is divided into 2 columns */
-.divisions{
+.divisions
+{
 	height: 40%;
 	background-color: PeachPuff;
 	padding-left: 100px;
 	padding-right: 100px;
 	font-family: 'Dancing Script', cursive;
 }
+
 /* 3 coloumns in this section  
 	and used google fonts for this sections font*/
-.sec1{
+.sec1
+{
 	font-family: 'Dancing Script', cursive;
 	background-color: PeachPuff;
 	margin-left: -200;
 }
 
-.sec1 img{
+.sec1 img
+{
 	padding-left: 5px;
 	width: 260px;
 	height: 250px;
 }
-footer{
+footer
+{
 	background-color: Black;
-	height:190px;
-	color:white;
+	height: 400px;
+	color: white;
 	display: inline;
+	width: 100%;
 }
 
-.foot img{
-	width:60px;
-	height:50px;
+.foot img
+{
+	width: 60px;
+	height: 50px;
 }
-.foot li{
+.foot li
+{
 	margin-left: 25px;
 	display: inline;
 }
-.foot ul{
-	margin-left: 1200px;
+.foot ul
+{
+	margin-left: 900px;
 }
-.foot p{
+.foot p
+{
 	margin-left: 50px;
 	padding-top: 5px;
 }
-.foot address{
+.foot address
+{
 	margin-left: 50px;
 	padding-top: 5px;
 }
