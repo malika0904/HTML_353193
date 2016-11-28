@@ -58,7 +58,7 @@ ul.unstyled{
    height: 70px ;
 }
 
-   #headOptions{
+#headOptions{
       padding-top: 20px;
    }
    
@@ -81,9 +81,6 @@ ul.unstyled{
 #slide3{
    background: url('../../images/img3.jpg') top center no-repeat;
 }
-#slide4{
-   background: url('../../images/img5.jpg') top center no-repeat;
-}
 
 
 /* --------------------------------------
@@ -103,14 +100,7 @@ ul.unstyled{
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-   #tab1{
-      width:100%;
-   }
-   #myModal{
-      width: 50%;
-      height: 50%;
 
-}
 }
 
 /* Large desktop */
