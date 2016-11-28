@@ -1,0 +1,119 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+body{
+   font-family: 'Open Sans', sans-serif;
+}
+
+#features{
+   text-align: center;
+}
+
+#features img{
+   width: 300px;
+   height: 200px;
+}
+
+footer{
+   background: #333;
+   color: #eee;
+   padding: 35px;
+}
+
+.unstyled li{
+   display: inline;
+   padding-right: 25px;
+}
+
+footer h6{
+   color: #eee;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+ul.unstyled{
+   list-style: none;
+   padding: 0px;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+.navbar-brand img{
+   width: 170px;
+   height: 70px ;
+}
+
+   #headOptions{
+      padding-top: 20px;
+   }
+   
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel .item{
+   height: 600px;
+}
+
+#slide1{
+   background: url('../../images/img1.jpg') top center no-repeat;
+}
+#slide2{
+   background: url('../../images/img2.jpg') top center no-repeat;
+}
+#slide3{
+   background: url('../../images/img3.jpg') top center no-repeat;
+}
+#slide4{
+   background: url('../../images/img5.jpg') top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+   #tab1{
+      width:100%;
+   }
+   #myModal{
+      width: 50%;
+      height: 50%;
+
+}
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
